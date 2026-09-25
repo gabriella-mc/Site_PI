@@ -1,0 +1,1049 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="icon" href="./img/favicon.ico" type="image/x-icon">
+    <title>Relembrando o Contestado em Caçador</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body id="topo">
+
+    <header class="navbar">
+        <div class="nav-left">
+            <div class="logo">
+
+                <a href="#" onclick="location.reload(); return false;">
+                    <img src="./img/logo.png" alt="Logo">
+                </a>
+            </div>
+            <nav class="menu">
+                <a href="#galeria">Galeria</a>
+                <a href="#mapa">Mapa</a>
+                <a href="#linha-do-tempo">Linha do Tempo</a>
+                <a href="#materiais">Materiais</a>
+                <a href="#monges">Monges</a>
+            </nav>
+        </div>
+
+        <div class="search-container">
+            <span class="search-icon">⌕</span>
+            <input type="text" class="search-input" placeholder="Pesquise sobre o Contestado...">
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="texto-imagem">
+            <h1>
+                Relembrando o
+                <span class="titulo-contestado">CONTESTADO</span>
+                <span style="display: block; font-weight: normal; font-size: 0.6em;">em Caçador</span>
+            </h1>
+            <img src="./img/imagem-principal.png" alt="Imagem principal do Contestado">
+        </div>
+        <div class="monge">
+            <img src="./img/mongezinho da pagina principal.png" alt="Monge José Maria">
+        </div>
+    </section>
+
+    <section id="introducao" class="secao-introducao">
+        <div class="introducao-container bloco-conteudo">
+            <div class="introducao-header">
+                <h2>Do que se trata o conflito?</h2>
+            </div>
+            <div class="introducao-corpo">
+                <p class="introducao-destaque">
+                    No início do século XX, o interior de Santa Catarina foi o epicentro da Guerra do Contestado
+                    (1912–1916), um dos maiores e mais complexos conflitos sociais da história da República brasileira.
+                    Longe de ser um mero levante de fanáticos religiosos, a guerra foi a resposta desesperada de uma
+                    população cabocla sistematicamente expropriada de suas terras, marginalizada pelo avanço do capital
+                    internacional e esquecida pelo power público.
+                </p>
+                <p>
+                    Neste cenário de disputa territorial e social, o território que hoje compreende o município de
+                    Caçador desempenhou um papel geográfico e estratégico fundamental. Cortada pelos trilhos da
+                    <em>Brazil Railway Company</em>, a antiga Vila de Caçador testemunhou de perto a transformação
+                    radical de sua paisagem e de sua estrutura social, tornando-se ponto de passagem de tropas, palco de
+                    escaramuças e testemunha da violência que moldou o destino do planalto catarinense.
+                </p>
+                <p>
+                    Este espaço digital foi concebido como um portal de resgate e preservação dessa memória. Convidamos
+                    você a explorar as nuances dessa história — desde as causas estruturais da ferrovia até o legado de
+                    dignidade dos trabalhadores do campo —, compreendendo como os ecos do Contestado ainda ressoam na
+                    identidade e no chão de Caçador.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-5" style="background-color:#f5f0dc;">
+
+        <div class="container">
+
+            <h2 class="text-center mb-3">O trem e museu.</h2>
+
+            <p class="text-center mb-5 text-secondary">
+                Registros da cidade de Caçador.
+            </p>
+
+            <div id="carouselGaleria" class="carousel slide shadow-lg rounded overflow-hidden" data-bs-ride="carousel">
+
+                <!-- Indicadores -->
+
+                <div class="carousel-indicators">
+
+                    <button type="button" data-bs-target="#carouselGaleria" data-bs-slide-to="0"
+                        class="active"></button>
+
+                    <button type="button" data-bs-target="#carouselGaleria" data-bs-slide-to="1"></button>
+
+                    <button type="button" data-bs-target="#carouselGaleria" data-bs-slide-to="2"></button>
+
+                </div>
+
+                <!-- Slides -->
+
+                <div class="carousel-inner">
+
+                    <div class="carousel-item active">
+
+                        <img src="./img/museu.jpg" class="d-block w-100"
+                            style="height:550px; object-fit:cover;" alt="Caboclos">
+
+                        <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded p-3">
+
+                            <h3>O Museu</h3>
+
+                            <p>
+                                Uma das mais importantes fontes de materiais e informação do território.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                    <div class="carousel-item">
+
+                        <img src="./img/trem2.jpeg" class="d-block w-100" style="height:550px; object-fit:cover;"
+                            alt="Ferrovia">
+
+                        <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded p-3">
+
+                            <h3>A Maria Fumaça</h3>
+
+                            <p>
+                                O trem histórico, agora presente como um ponto de visitação.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                    <div class="carousel-item">
+
+                        <img src="./img/trem-1.webp" class="d-block w-100" style="height:550px; object-fit:cover;"
+                            alt="Forças Federais">
+
+                        <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded p-3">
+
+                            <h3>Visão ampla.</h3>
+
+                            <p>
+
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- Botão anterior -->
+
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselGaleria"
+                    data-bs-slide="prev">
+
+                    <span class="carousel-control-prev-icon"></span>
+
+                </button>
+
+
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselGaleria"
+                    data-bs-slide="next">
+
+                    <span class="carousel-control-next-icon"></span>
+
+                </button>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section id="mapa" class="secao-mapa">
+
+    <h2>Geografia do Conflito</h2>
+
+    <p class="descricao-mapa">
+        Localização de Caçador - SC, ponto nevrálgico no tráfego de tropas
+        e logística ferroviária durante a guerra.
+    </p>
+
+    <div class="mapa-container">
+        <iframe
+            src="https://www.openstreetmap.org/export/embed.html?bbox=-51.0450%2C-26.7900%2C-50.9850%2C-26.7600&amp;layer=mapnik&amp;marker=-26.7753%2C-51.0142"
+            width="100%"
+            height="450"
+            style="border:0;">
+        </iframe>
+    </div>
+
+    <p class="legenda-mapa">
+        * O marcador indica a região central de Caçador, onde se situa o
+        Museu Histórico e Antropológico da Região do Contestado (antiga estação).
+    </p>
+
+</section>
+    <section id="cacador-guerra" class="py-5">
+
+        <div class="container">
+
+            <div class="text-center mb-5">
+
+                <span class="badge bg-success px-3 py-2 mb-3 fs-6">
+                    História Local
+                </span>
+
+                <h2>Caçador na Guerra do Contestado</h2>
+
+                <p class="lead text-secondary mx-auto" style="max-width:800px;">
+                    A região onde hoje está localizado o município de Caçador teve papel fundamental na Guerra do
+                    Contestado. A ferrovia, os confrontos e as transformações sociais marcaram profundamente a história
+                    local e contribuíram para a formação da cidade.
+                </p>
+
+            </div>
+
+            <div class="text-center mb-5">
+
+                <img src="./img/ferrovia.jpg" class="img-fluid rounded shadow-lg" style="max-width:900px;"
+                    alt="Região de Caçador durante o Contestado">
+
+            </div>
+
+            <div class="bloco-conteudo mb-5">
+
+                <h3> A chegada da ferrovia</h3>
+
+                <p>
+                    No início do século XX, a construção da Estrada de Ferro São Paulo–Rio Grande transformou
+                    completamente a região onde hoje se encontra Caçador. A ferrovia facilitou o transporte de pessoas,
+                    madeira e mercadorias, mas também provocou a expulsão de inúmeras famílias caboclas que ocupavam
+                    aquelas terras havia gerações.
+                </p>
+
+            </div>
+
+            <div class="bloco-conteudo mb-5">
+
+                <h3>Um território estratégico</h3>
+
+                <p>
+                    Durante a Guerra do Contestado (1912–1916), a região tornou-se um importante ponto de circulação de
+                    tropas e suprimentos militares. A proximidade da ferrovia permitia o rápido deslocamento do Exército
+                    Brasileiro, tornando o território essencial para as operações realizadas contra os redutos caboclos.
+                </p>
+
+            </div>
+
+            <div class="bloco-conteudo mb-5">
+
+                <h3> A formação de Caçador</h3>
+
+                <p>
+                    Embora Caçador tenha sido emancipada apenas em 1934, os acontecimentos da Guerra do Contestado
+                    influenciaram diretamente o desenvolvimento da região. O crescimento da ferrovia, da exploração
+                    madeireira e da ocupação do território impulsionou o surgimento do município nas décadas seguintes.
+                </p>
+
+            </div>
+
+            <div class="bloco-conteudo">
+
+                <h3>📜 Um legado preservado</h3>
+
+                <p>
+                    Atualmente, Caçador é um dos principais centros de preservação da memória do Contestado. O Museu
+                    Histórico e Antropológico da Região do Contestado, instalado na antiga estação ferroviária, reúne
+                    fotografias, documentos, objetos e relatos que ajudam a compreender a importância da cidade durante
+                    esse período da história brasileira.
+                </p>
+
+                <div class="alert alert-success mt-4">
+                    <strong>Você sabia?</strong> A antiga estação ferroviária de Caçador, além de preservar parte da
+                    arquitetura original da época da ferrovia, tornou-se um dos principais símbolos da memória histórica
+                    do Contestado em Santa Catarina.
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+    <section id="linha-do-tempo" class="linha-tempo">
+    <h2>Linha do Tempo</h2>
+
+    <div class="timeline">
+
+        <div class="evento" onclick="abrirEvento('1912')">
+            <div class="ano">1912</div>
+            <p>O conflito alcança a região de Caçador.</p>
+        </div>
+
+        <div class="evento" onclick="abrirEvento('1913')">
+            <div class="ano">1913</div>
+            <p>A ferrovia fortalece a importância da região.</p>
+        </div>
+
+        <div class="evento" onclick="abrirEvento('1914')">
+            <div class="ano">1914</div>
+            <p>Caçador torna-se uma área estratégica.</p>
+        </div>
+
+        <div class="evento" onclick="abrirEvento('1915')">
+            <div class="ano">1915</div>
+            <p>A população sofre os impactos da guerra.</p>
+        </div>
+
+        <div class="evento" onclick="abrirEvento('1916')">
+            <div class="ano">1916</div>
+            <p>O conflito termina e deixa um legado para a região.</p>
+        </div>
+
+    </div>
+</section>
+
+    <div id="modalTimeline" class="modal">
+        <div class="modal-conteudo">
+            <span class="fechar">&times;</span>
+            <h2 id="tituloEvento"></h2>
+            <p id="textoEvento"></p>
+        </div>
+    </div>
+
+    <script>
+        const modal = document.getElementById("modalTimeline");
+        const titulo = document.getElementById("tituloEvento");
+        const texto = document.getElementById("textoEvento");
+        const fechar = document.querySelector(".fechar");
+
+        function abrirEvento(ano) {
+
+            const modal = document.getElementById("modalTimeline");
+            const titulo = document.getElementById("tituloEvento");
+            const texto = document.getElementById("textoEvento");
+
+            switch (ano) {
+
+                case "1912":
+
+                    titulo.innerHTML = "1912 — O conflito alcança a região de Caçador";
+
+                    texto.innerHTML = "Em 1912 teve início a Guerra do Contestado. A região onde hoje está localizado o município de Caçador passou a integrar a área dos conflitos devido à proximidade da Estrada de Ferro São Paulo–Rio Grande. A disputa pelas terras e o descontentamento das populações caboclas transformaram o território em uma área de grande importância para o desenvolvimento da guerra.";
+
+                    break;
+
+                case "1913":
+
+                    titulo.innerHTML = "1913 — A ferrovia fortalece a importância da região";
+
+                    texto.innerHTML = "Durante 1913, a ferrovia tornou-se indispensável para o transporte de tropas, equipamentos e suprimentos do Exército Brasileiro. Ao mesmo tempo, a expansão das empresas ferroviárias e madeireiras intensificou os conflitos fundiários, afetando diretamente as comunidades que viviam na região onde hoje se encontra Caçador.";
+
+                    break;
+
+                case "1914":
+
+                    titulo.innerHTML = "1914 — Caçador torna-se uma área estratégica";
+
+                    texto.innerHTML = "Em 1914, a região passou a desempenhar um papel estratégico nas operações militares. A proximidade da ferrovia facilitava o deslocamento das tropas federais e o abastecimento das campanhas contra os redutos caboclos, consolidando a importância do território para o governo.";
+
+                    break;
+
+                case "1915":
+
+                    titulo.innerHTML = "1915 — Os impactos da guerra na população";
+
+                    texto.innerHTML = "Mesmo distante dos maiores campos de batalha, a população da região sofreu as consequências do conflito. Muitas famílias perderam suas terras, precisaram abandonar suas casas ou enfrentaram dificuldades econômicas provocadas pela guerra e pela expansão das empresas que atuavam no Contestado.";
+
+                    break;
+
+                case "1916":
+
+                    titulo.innerHTML = "1916 — O legado para Caçador";
+
+                    texto.innerHTML = "Com o fim da Guerra do Contestado, iniciou-se um período de reorganização da região. Nas décadas seguintes, o desenvolvimento impulsionado pela ferrovia contribuiu para a formação do município de Caçador, emancipado em 1934. Atualmente, a cidade preserva essa memória por meio do Museu Histórico e Antropológico da Região do Contestado e de seu patrimônio ferroviário.";
+
+                    break;
+            }
+
+            modal.style.display = "flex";
+        }
+
+        fechar.onclick = function () { modal.style.display = "none"; }
+        window.onclick = function (event) { if (event.target == modal) { modal.style.display = "none"; } }
+    </script>
+
+    <section id="reportagem" class="secao-reportagem">
+        <header class="reportagem-header">
+            <h2> O CHÃO CONTESTADO</h2>
+        </header>
+
+        <div class="reportagem-corpo">
+            <article class="bloco-conteudo">
+                <h3>O Estopim: Sangue sobre os Trilhos do Progresso</h3>
+                <p class="destaque-texto">
+                    No início do século XX, o planalto catarinense viu o "progresso" chegar a vapor. A construção da
+                    ferrovia Brazil Railway Company prometia integrar a região ao restante do país, mas trouxe consigo a
+                    semente da discórdia.
+                </p>
+                <p>
+                    Para financiar a imensa obra, o governo federal doou ao empresário americano Percival Farquhar uma
+                    faixa de 15 km de terra de cada lado dos trilhos. O resultado prático foi devastador:
+                    <strong>milhares de famílias de caboclos foram sumariamente expulsas de suas casas</strong> para dar
+                    lugar à exploração industrial de madeira e à colonização estrangeira.
+                </p>
+                <blockquote class="olho-reportagem">
+                    "A ferrovia cortou as terras, mas também cortou o direito do caboclo de existir no seu próprio
+                    chão."
+                </blockquote>
+                <p>
+                    Para piorar o cenário social, em 1910 a ferrovia ficou pronta. Cerca de 8.000 operários trazidos de
+                    várias partes do Brasil foram demitidos de uma hora para a outra, sem nenhum amparo, engrossando as
+                    fileiras da miséria absoluta na região de Caçador.
+                </p>
+            </article>
+
+            <article class="bloco-conteudo">
+                <h3>O Messianismo: A Fé como Escudo contra a Opressão</h3>
+                <p>
+                    Desamparados pelos governos e perseguidos pelos violentos capangas dos grandes coronéis de terras,
+                    os sertanejos encontraram na fé o único refúgio possível. Foi nesse cenário de terra arrasada que
+                    ganhou força a figura mística dos <strong>Monges</strong>.
+                </p>
+                <p>
+                    Primeiro João Maria, com suas curas por ervas e profecias, moldou a forte espiritualidade local.
+                    Anos depois, surgiu <strong>José Maria</strong>, um líder carismático que organizou os camponeses em
+                    comunidades autossustentáveis baseadas na fraternidade e na partilha. A recém-criada República, que
+                    enviava soldados e defendia apenas as empresas estrangeiras, passou a ser vista pelos caboclos como
+                    a verdadeira "lei do cão".
+                </p>
+            </article>
+
+            <article class="bloco-conteudo">
+                <h3>A Resistência: O Nascimento dos Redutos Igualitários</h3>
+                <p>
+                    O que o governo central chamava nos jornais da época de "fanatismo monarquista" era, na verdade, um
+                    grito desesperado por sobrevivência. Após o violento <strong>Combate do Irani (1912)</strong>, que
+                    culminou na morte do monge José Maria e do Coronel João Gualberto, o movimento não acabou; ele se
+                    multiplicou.
+                </p>
+                <p>
+                    Acreditando na ressurreição de seu líder espiritual, os caboclos se embrenharam na mata fechada e
+                    fundaram os <strong>Redutos</strong> (como Taquaruçu e Caraguatá). Eram vilas fortemente organizadas
+                    onde a propriedade privada não existia, a comida era compartilhada de forma estritamente igualitária
+                    e a liderança era exercida por conselhos religiosos.
+                </p>
+                <div class="box-destaque-interno">
+                    <h4>Estratégia de Sobrevivência</h4>
+                    <p>Armados apenas com facões, lanças de madeira e armas de caça antigas, os caboclos impuseram duras
+                        derrotas às primeiras expedições do exército brasileiro através de táticas eficientes de
+                        guerrilha e emboscadas na floresta nativa.</p>
+                </div>
+            </article>
+
+            <article class="bloco-conteudo">
+                <h3>O Massacre: A Primeira Vez que o Brasil Bombardeou o Próprio Povo</h3>
+                <p>
+                    No ano de 1914, diante da incapacidade das forças regionais em conter a insurreição camponesa, o
+                    governo federal determinou uma intervenção militar definitiva de larga escala. O comando das
+                    operações foi delegado ao General Setembrino de Carvalho, que mobilizou um contingente superior a
+                    7.000 soldados — o que representava, à época, aproximadamente um terço de todo o efetivo do Exército
+                    Brasileiro — transformando a região numa verdadeira frente de campanha.
+                </p>
+                <p>
+                    A estratégia militar empregada caracterizou-se por uma profunda assimetria e pela introdução de
+                    tecnologias bélicas modernas importadas da Europa. Além do uso massivo de artilharia pesada e
+                    metralhadoras automáticas que dizimaram as fortificações de madeira, o conflito marcou o pioneirismo
+                    do uso da aviação militar no Brasil, com aeronaves empregadas em missões de reconhecimento tático e
+                    bombardeamento dos redutos caboclos. Paralelamente aos confrontos diretos, o exército implementou
+                    uma guerra de exaustão através do cerco logístico, promovendo a queima sistemática de lavouras e o
+                    isolamento de rotas de abastecimento, o que submeteu a população civil à fome extrema e a surtos
+                    epidêmicos devastadores, como o tifo.
+                </p>
+                <p>
+                    A capitulação dos últimos focos de resistência e a subsequente captura do líder Adeodato, in 1916,
+                    consolidaram um saldo humanitário catastrófico. Estimativas historiográficas apontam para um número
+                    de vítimas que oscila entre 10.000 e 20.000 mortos, cuja esmagadora maioria era composta por civis,
+                    lavradores e mulheres, muitos dos quais executados sumariamente mesmo após o ato de rendição
+                    forçada.
+                </p>
+            </article>
+        </div>
+    </section>
+
+
+    <section id="monges">
+        <h2> Os Monges </h2>
+        <div class="cards-monges">
+            <div class="card-monge">
+                <img src="./img/agostini.jpg" alt="João Maria de Agostini">
+                <h3>João Maria de Agostini</h3>
+                <p>Considerado o primeiro dos monges. Peregrinou pelo Sul do Brasil entre as décadas de 1840 e 1860,
+                    realizando curas, aconselhando moradores e tornando-se uma figura lendária na região.</p>
+            </div>
+
+            <div class="card-monge">
+                <img src="./img/dejesus.jpg" alt="João Maria de Jesus">
+                <h3>João Maria de Jesus</h3>
+                <p>Seguiu a tradição do primeiro monge e fortaleceu a religiosidade popular entre os caboclos. Suas
+                    profecias e ensinamentos ficaram profundamente marcados na cultura regional.</p>
+            </div>
+
+            <div class="card-monge">
+                <img src="./img/josemaria.jpg" alt="José Maria">
+                <h3>José Maria</h3>
+                <p>Principal líder religioso da Guerra do Contestado. Organizou comunidades caboclas, pregou justiça
+                    social e tornou-se símbolo da resistência sertaneja durante o conflito.</p>
+            </div>
+        </div>
+    </section>
+    <section id="personagens" class="py-5">
+        <div class="container">
+
+            <h2 class="text-center mb-4"> Outros Personagens Históricos</h2>
+
+            <div class="row g-4">
+
+                <!-- Adeodato -->
+                <div class="col-md-3">
+                    <div class="card h-100">
+                        <img src="img/adeodato.jpg" class="card-img-top" alt="Adeodato">
+                        <div class="card-body">
+                            <h5 class="card-title">Adeodato</h5>
+                            <p class="card-text">Último grande líder da resistência cabocla. Assumiu após José Maria e
+                                liderou até 1916.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Percival Farquhar -->
+                <div class="col-md-3">
+                    <div class="card h-100">
+                        <img src="img/percival.jpg" class="card-img-top" alt="Percival Farquhar">
+                        <div class="card-body">
+                            <h5 class="card-title">Percival Farquhar</h5>
+                            <p class="card-text">Empresário ligado à Brazil Railway Company, responsável por concessões
+                                de terras e impactos sociais.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Setembrino -->
+                <div class="col-md-3">
+                    <div class="card h-100">
+                        <img src="img/General_Setembrino_de_Carvalho.jpg" class="card-img-top"
+                            alt="General Setembrino de Carvalho">
+                        <div class="card-body">
+                            <h5 class="card-title">Setembrino de Carvalho</h5>
+                            <p class="card-text">Comandou a ofensiva final do Exército e encerrou a resistência cabocla.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- João Gualberto -->
+                <div class="col-md-3">
+                    <div class="card h-100">
+                        <img src="img/joao_gualberto.jpg" class="card-img-top" alt="João Gualberto">
+                        <div class="card-body">
+                            <h5 class="card-title">João Gualberto</h5>
+                            <p class="card-text">Coronel paranaense morto no Combate do Irani, marco inicial do
+                                conflito.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="legado" class="py-5 bg-light">
+        <div class="container">
+
+            <h2 class="text-center mb-4">O Legado da Guerra do Contestado</h2>
+
+            <div class="row g-4">
+
+                <div class="col-md-6">
+                    <h4>Consequências Humanas</h4>
+                    <ul>
+                        <li>Entre 10 e 20 mil mortos</li>
+                        <li>Milhares de famílias perderam suas terras</li>
+                        <li>Comunidades inteiras desapareceram</li>
+                    </ul>
+                </div>
+
+                <div class="col-md-6">
+                    <h4>Consequências Políticas</h4>
+                    <ul>
+                        <li>Definição da divisa SC–PR em 1916</li>
+                        <li>Maior presença do governo federal na região</li>
+                    </ul>
+                </div>
+
+                <div class="col-md-6">
+                    <h4>Consequências Econômicas</h4>
+                    <ul>
+                        <li>Consolidação da ferrovia</li>
+                        <li>Expansão da exploração de madeira</li>
+                        <li>Crescimento de cidades como Caçador</li>
+                    </ul>
+                </div>
+
+                <div class="col-md-6">
+                    <h4>Memória Histórica</h4>
+                    <ul>
+                        <li>Museus e monumentos</li>
+                        <li>Pesquisas acadêmicas</li>
+                        <li>Preservação da cultura cabocla</li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <div class="text-center mt-4">
+                <blockquote class="blockquote">
+                    <p>A Guerra do Contestado permanece como um símbolo da luta pela terra, pela dignidade e pela
+                        justiça social no Brasil.</p>
+                </blockquote>
+            </div>
+
+        </div>
+    </section>
+
+
+
+
+
+    <section id="dados" class="py-5">
+        <div class="container">
+
+            <h2 class="text-center mb-4">Números do Contestado</h2>
+
+            <div class="row g-4 text-center">
+
+                <div class="col-md-4">
+                    <div class="p-3 border rounded">
+                        <h3>1912–1916</h3>
+                        <p>Período do conflito</p>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="p-3 border rounded">
+                        <h3>10–20 mil</h3>
+                        <p>Mortos estimados</p>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="p-3 border rounded">
+                        <h3>7 mil</h3>
+                        <p>Soldados mobilizados</p>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="p-3 border rounded">
+                        <h3>15 km</h3>
+                        <p>Faixa de concessão da ferrovia</p>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="p-3 border rounded">
+                        <h3>4 anos</h3>
+                        <p>Duração da guerra</p>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="p-3 border rounded">
+                        <h3>Aviação</h3>
+                        <p>Primeiro uso militar no Brasil</p>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+
+    <section id="curiosidades" class="py-5" style="background-color:#f8f3df;">
+        <div class="container">
+
+            <h2 class="text-center mb-5">Curiosidades sobre Caçador e o Contestado</h2>
+
+            <div class="row g-4">
+
+                <div class="col-md-6">
+                    <div class="card h-100 shadow-sm border-success">
+                        <div class="card-body">
+                            <h4 class="text-success">🚂 A ferrovia deu origem ao desenvolvimento da cidade</h4>
+                            <p>
+                                A construção da Estrada de Ferro São Paulo–Rio Grande transformou a região onde hoje
+                                está
+                                Caçador. A chegada dos trilhos atraiu trabalhadores, empresas e novos moradores,
+                                impulsionando o crescimento do futuro município.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="card h-100 shadow-sm border-success">
+                        <div class="card-body">
+                            <h4 class="text-success">🏛 O museu funciona na antiga estação ferroviária</h4>
+                            <p>
+                                O Museu Histórico e Antropológico da Região do Contestado está instalado na antiga
+                                estação
+                                da ferrovia, um dos principais patrimônios históricos de Caçador.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="card h-100 shadow-sm border-success">
+                        <div class="card-body">
+                            <h4 class="text-success">🚂 A Maria Fumaça ainda existe</h4>
+                            <p>
+                                Uma locomotiva a vapor preservada na cidade lembra a importância da ferrovia durante a
+                                Guerra do Contestado e representa um dos principais atrativos históricos de Caçador.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="card h-100 shadow-sm border-success">
+                        <div class="card-body">
+                            <h4 class="text-success">📍 Caçador fica no coração do Território do Contestado</h4>
+                            <p>
+                                O município integra a região onde ocorreram diversos acontecimentos da guerra e preserva
+                                até hoje a memória dos caboclos e dos conflitos pela terra.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="card h-100 shadow-sm border-success">
+                        <div class="card-body">
+                            <h4 class="text-success">📚 A história continua sendo pesquisada</h4>
+                            <p>
+                                Universidades, museus e pesquisadores continuam produzindo estudos sobre a Guerra do
+                                Contestado, revelando novas interpretações e preservando documentos históricos da
+                                região.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="card h-100 shadow-sm border-success">
+                        <div class="card-body">
+                            <h4 class="text-success">🌳 A paisagem ainda guarda marcas do passado</h4>
+                            <p>
+                                Algumas áreas rurais próximas a Caçador ainda preservam trechos da antiga ferrovia e
+                                locais
+                                relacionados aos acontecimentos da Guerra do Contestado, mantendo viva a memória da
+                                região.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+
+
+
+    <section id="materiais" class="secao-introducao"
+        style="max-width: 100%; background-color: #f1ead1; padding-top: 20px;">
+
+        <div class="introducao-container bloco-conteudo">
+
+            <div class="introducao-header">
+                <h2>Materiais de Apoio & Fontes</h2>
+                <p style="color:#198754; font-weight:bold; margin-top:10px;">
+                    Explore livros, pesquisas acadêmicas, documentários e acervos sobre a Guerra do Contestado.
+                </p>
+            </div>
+
+            <div class="introducao-corpo" style="font-family: Arial, sans-serif;">
+
+                <ul style="list-style:none; padding:0;">
+
+                    <ul style="list-style:none; padding:0;">
+
+                        <li style="margin-bottom:25px; border-bottom:2px dashed #DDB63A; padding-bottom:15px;">
+                            <strong style="color:#146c43; font-size:18px;">
+                                📄 A Questão de Terras no Contestado: Diversidade de Conflitos e Motivações
+                            </strong><br>
+
+                            <em>Autor: Paulo Pinheiro Machado (UFSC).</em><br>
+
+                            Artigo científico que analisa os conflitos fundiários e as diferentes motivações sociais e
+                            econômicas presentes na Guerra do Contestado.
+
+                            <br><br>
+
+                            <a href="https://www.periodicos.unc.br/index.php/drd/article/view/5013" target="_blank"
+                                style="color:#198754; font-weight:bold;">
+                                🔗 Acessar artigo
+                            </a>
+                        </li>
+
+                        <li style="margin-bottom:25px; border-bottom:2px dashed #DDB63A; padding-bottom:15px;">
+                            <strong style="color:#146c43; font-size:18px;">
+                                📄 Guerra, Cerco, Fome e Epidemias: Memórias e Experiências dos Sertanejos do Contestado
+                            </strong><br>
+
+                            <em>Autor: Paulo Pinheiro Machado.</em><br>
+
+                            Estudo sobre as condições de vida da população sertaneja durante os cercos militares e as
+                            consequências humanitárias da guerra.
+
+                            <br><br>
+
+                            <a href="https://revistas.ufrj.br/index.php/topoi/article/view/70481" target="_blank"
+                                style="color:#198754; font-weight:bold;">
+                                🔗 Acessar artigo
+                            </a>
+                        </li>
+
+                        <li style="margin-bottom:25px; border-bottom:2px dashed #DDB63A; padding-bottom:15px;">
+                            <strong style="color:#146c43; font-size:18px;">
+                                📄 Os Caboclos do Contestado: "Fanáticos" ou Não?
+                            </strong><br>
+
+                            <em>Autor: Caio Dias de Brito.</em><br>
+
+                            Pesquisa que discute criticamente a visão historiográfica sobre os caboclos envolvidos no
+                            conflito.
+
+                            <br><br>
+
+                            <a href="https://ojs.sites.ufsc.br/index.php/sceh/article/view/288" target="_blank"
+                                style="color:#198754; font-weight:bold;">
+                                🔗 Acessar artigo
+                            </a>
+                        </li>
+
+                        <li style="margin-bottom:25px; border-bottom:2px dashed #DDB63A; padding-bottom:15px;">
+                            <strong style="color:#146c43; font-size:18px;">
+                                📄 A Guerra do Contestado sob a Ótica da Obra <em>O Jagunço</em>: Violência, Gênero,
+                                Memória e Resistência
+                            </strong><br>
+
+                            Artigo que analisa a Guerra do Contestado a partir da obra literária <em>O Jagunço</em>,
+                            abordando aspectos históricos e culturais.
+
+                            <br><br>
+
+                            <a href="https://ojs.upf.br/index.php/ph/article/view/13794" target="_blank"
+                                style="color:#198754; font-weight:bold;">
+                                🔗 Acessar artigo
+                            </a>
+                        </li>
+
+                        <li style="margin-bottom:25px; border-bottom:2px dashed #DDB63A; padding-bottom:15px;">
+                            <strong style="color:#146c43; font-size:18px;">
+                                📄 A Ausência da Guerra: Histórias do Contestado através da Fuga, do Território e da
+                                Religiosidade
+                            </strong><br>
+
+                            Artigo que investiga a memória da Guerra do Contestado por meio das experiências dos
+                            sertanejos e das práticas religiosas.
+
+                            <br><br>
+
+                            <a href="https://econtents.sbu.unicamp.br/inpec/index.php/ruris/article/view/16889"
+                                target="_blank" style="color:#198754; font-weight:bold;">
+                                🔗 Acessar artigo
+                            </a>
+                        </li>
+
+                        <li style="margin-bottom:25px; border-bottom:2px dashed #DDB63A; padding-bottom:15px;">
+                            <strong style="color:#146c43; font-size:18px;">
+                                📚 A Guerra Santa do Contestado (PDF)
+                            </strong><br>
+
+                            <em>Organizador: Paulo Pinheiro Machado.</em><br>
+
+                            Livro completo em PDF reunindo estudos atualizados sobre a Guerra do Contestado.
+
+                            <br><br>
+
+                            <a href="https://videira.ifc.edu.br/wp-content/uploads/2023/10/Paulo-Pinheiro-Machado-org-A-Guerra-Santa-do-Contestado-Tintim-por-Tintim-2023.pdf"
+                                target="_blank" style="color:#198754; font-weight:bold;">
+                                📥 Baixar PDF
+                            </a>
+                        </li>
+
+                        <li style="margin-bottom:25px; border-bottom:2px dashed #DDB63A; padding-bottom:15px;">
+                            <strong style="color:#146c43; font-size:18px;">
+                                📄 Igualitarismo Caboclo e Uso Comum da Terra nos Redutos Sertanejos da Guerra do
+                                Contestado
+                            </strong><br>
+
+                            <em>Autor: Marlon Brandt.</em><br>
+
+                            Estudo sobre a organização social dos redutos caboclos e o uso coletivo da terra durante o
+                            conflito.
+
+                            <br><br>
+
+                            <a href="https://www.researchgate.net/publication/280094108_Igualitarismo_caboclo_e_uso_comum_da_terra_nos_redutos_sertanejos_da_Guerra_do_Contestado"
+                                target="_blank" style="color:#198754; font-weight:bold;">
+                                🔗 Acessar artigo
+                            </a>
+                        </li>
+
+                        <li style="margin-bottom:25px;">
+                            <strong style="color:#146c43; font-size:18px;">
+                                📄 Rábulas e Bacharéis na Guerra do Contestado: Direito, Polícia e Conflito Social
+                                (1912–1916)
+                            </strong><br>
+
+                            <em>Autor: Paulo Pinheiro Machado.</em><br>
+
+                            Pesquisa sobre a atuação do direito, das forças policiais e das relações de poder durante a
+                            Guerra do Contestado.
+
+                            <br><br>
+
+                            <a href="https://www.researchgate.net/publication/313014392_Rabulas_e_Bachareis_na_Guerra_do_Contestado_Direito_policia_e_conflito_social_1912-1916"
+                                target="_blank" style="color:#198754; font-weight:bold;">
+                                🔗 Acessar artigo
+                            </a>
+                        </li>
+                        <li style="margin-bottom:25px; border-bottom:2px dashed #DDB63A; padding-bottom:15px;">
+                            <strong style="color:#146c43; font-size:18px;">
+                                🎬 Documentário: Guerra desconhecida.
+                            </strong><br>
+
+                            Documentário que apresenta as origens, os principais acontecimentos, os líderes religiosos e
+                            as consequências da Guerra do Contestado, com foco no contexto histórico do Sul do Brasil.
+
+                            <br><br>
+
+                            <a href="https://youtu.be/iXYDw0eL6i8?si=0auNSpuL7iCYUq9n" target="_blank"
+                                style="color:#198754; font-weight:bold;">
+                                ▶ Assistir no YouTube
+                            </a>
+                        </li>
+                    </ul>
+
+
+
+
+            </div>
+
+        </div>
+
+    </section>
+<script>
+const campoPesquisa = document.querySelector('.search-input');
+
+campoPesquisa.addEventListener('input', function () {
+
+    const termo = this.value.toLowerCase().trim();
+
+    let encontrados = 0;
+
+    document.querySelectorAll('section, .card').forEach(item => {
+
+        const texto = item.textContent.toLowerCase();
+
+        if (texto.includes(termo) || termo === "") {
+            item.style.display = "";
+            encontrados++;
+        } else {
+            item.style.display = "none";
+        }
+
+    });
+
+    let aviso = document.getElementById('semResultados');
+
+    if (!aviso) {
+        aviso = document.createElement('p');
+        aviso.id = 'semResultados';
+        aviso.style.textAlign = 'center';
+        aviso.style.fontSize = '20px';
+        aviso.style.color = '#198754';
+        aviso.style.margin = '30px';
+        document.body.appendChild(aviso);
+    }
+
+    aviso.textContent =
+        encontrados === 0
+            ? 'Nenhum resultado encontrado.'
+            : '';
+
+});
+</script>
+
+    <footer
+        style="background-color: #198754; color: #f1ead1; padding: 40px 20px; text-align: center; margin-top: 50px; font-family: Arial, sans-serif;">
+        <div style="max-width: 1200px; margin: 0 auto; display: block;">
+            <p style="font-size: 18px; font-weight: bold; margin-bottom: 15px; color: #DDB63A;">
+                Portal de Resgate Histórico — Relembrando o Contestado em Caçador
+            </p>
+            <p style="font-size: 14px; max-width: 700px; margin: 0 auto 20px auto; line-height: 1.6; color: #e2f0d9;">
+                Este espaço digital tem o objetivo de preservar a memória cabocla e promover o conhecimento científico
+                fundamentado sobre as disputas de terra que moldaram o Meio-Oeste de Santa Catarina.
+            </p>
+            <div style="margin-bottom: 25px;">
+                <a href="#topo"
+                    style="color: #DDB63A; text-decoration: none; margin: 0 15px; font-weight: bold; font-size: 14px;">Voltar
+                    ao Topo ↑</a> |
+                <a href="#galeria"
+                    style="color: #fff; text-decoration: none; margin: 0 15px; font-size: 14px;">Galeria</a> |
+                <a href="#mapa" style="color: #fff; text-decoration: none; margin: 0 15px; font-size: 14px;">Mapa</a> |
+                <a href="#linha-do-tempo"
+                    style="color: #fff; text-decoration: none; margin: 0 15px; font-size: 14px;">Linha do Tempo</a> |
+                <a href="#materiais" style="color: #fff; text-decoration: none; margin: 0 15px; font-size: 14px;">Fontes
+                    Científicas</a>
+            </div>
+            <p
+                style="font-size: 12px; color: #b4dcb4; border-top: 1px solid rgba(255,255,255,0.2); padding-top: 20px; margin: 0;">
+                © 2026 — Desenvolvido como Projeto Integrador no IFSC Câmpus Caçador para fins educacionais e
+                acadêmicos. Referências bibliográficas baseadas em repositórios da UFSC, UNICAMP e Museu do Contestado.
+            </p>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
