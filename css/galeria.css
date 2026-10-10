@@ -1,0 +1,40 @@
+/* Galeria interativa - Relembrando o Contestado
+   Todas as classes começam com "gal-" para não conflitar com o style.css nem com o Bootstrap. */
+.gal-secao{max-width:1180px;margin:0 auto;padding:40px 20px 56px;text-align:center}
+.gal-secao h2{font-size:2.2rem;color:#146c43;margin-bottom:6px}
+.gal-sub{color:#198754;font-weight:bold;margin-bottom:22px}
+.gal-filtros{display:flex;gap:10px;flex-wrap:wrap;justify-content:center;margin-bottom:28px}
+.gal-pilula{background:#DDB63A;color:#198754;border:0;border-radius:30px;padding:8px 20px;font-weight:bold;font-size:14px;cursor:pointer;transition:.3s}
+.gal-pilula:hover{transform:translateY(-2px)}
+.gal-pilula:focus-visible{outline:3px solid #146c43;outline-offset:2px}
+.gal-pilula[aria-pressed="true"]{background:#198754;color:#f1ead1}
+.gal-grade{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:22px}
+.gal-item{border:0;background:#d9d1b2;padding:9px;cursor:pointer;display:block;text-align:left;transition:transform .2s,background .2s;
+clip-path:polygon(0 3%,3% 0,12% 2%,25% 0,40% 2%,55% 0,70% 2%,85% 0,97% 2%,100% 4%,98% 20%,100% 40%,98% 60%,100% 80%,97% 100%,85% 98%,70% 100%,55% 98%,40% 100%,25% 98%,10% 100%,2% 97%,0 80%,2% 60%,0 40%,2% 20%)}
+.gal-item:nth-child(3n+1){transform:rotate(-1deg)}
+.gal-item:nth-child(3n+2){transform:rotate(.8deg)}
+.gal-item:hover,.gal-item:focus-visible{transform:rotate(0) scale(1.04);background:#DDB63A;outline:none}
+.gal-item img{width:100%;aspect-ratio:4/3;object-fit:cover;display:block;filter:sepia(.55) contrast(1.05);transition:filter .2s}
+.gal-item:hover img,.gal-item:focus-visible img{filter:none}
+.gal-item span{display:block;color:#146c43;font-weight:bold;font-size:.95rem;padding:7px 2px 2px}
+.gal-item[hidden]{display:none}
+
+/* Lightbox */
+.gal-lb{position:fixed;inset:0;background:rgba(14,40,29,.94);display:none;flex-direction:column;align-items:center;justify-content:center;gap:14px;padding:16px;z-index:2000;color:#f1ead1}
+.gal-lb.aberto{display:flex}
+.gal-moldura{background:#d9d1b2;padding:12px;
+clip-path:polygon(0 2%,2% 0,15% 1.5%,35% 0,60% 1.5%,85% 0,98% 1.5%,100% 3%,98.5% 30%,100% 55%,98.5% 80%,100% 97%,97% 100%,80% 98.5%,55% 100%,30% 98.5%,10% 100%,1.5% 98%,0 75%,1.5% 50%,0 25%)}
+.gal-lb img{display:block;max-width:min(88vw,880px);max-height:62vh}
+.gal-legenda{text-align:center;max-width:620px}
+.gal-legenda b{display:block;font-size:clamp(1.4rem,3vw,2rem);line-height:1.1;color:#DDB63A;margin-bottom:4px}
+.gal-legenda span{opacity:.9}
+.gal-lb button{position:absolute;background:#DDB63A;border:0;color:#146c43;font-weight:bold;font-size:1.8rem;line-height:1;width:50px;height:50px;border-radius:50%;cursor:pointer}
+.gal-lb button:hover,.gal-lb button:focus-visible{background:#f1ead1;outline:3px solid #198754;outline-offset:2px}
+#gal-fechar{top:16px;right:16px}
+#gal-ant{left:12px;top:50%}
+#gal-prox{right:12px;top:50%}
+@media (prefers-reduced-motion:reduce){.gal-item,.gal-item img,.gal-pilula{transition:none}}
+
+.gal-contagem{margin-top:26px;color:#146c43;font-size:.95rem}
+.gal-mais{margin-top:10px;padding:10px 28px;font-size:15px}
+.gal-mais[hidden]{display:none}
